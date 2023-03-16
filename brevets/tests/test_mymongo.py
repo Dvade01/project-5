@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-from acp_times import brevet_insert, brevet_find
+from mypymongo import brevet_insert, brevet_find
 import os
 
 client = MongoClient('mongodb://' + os.environ['MONGODB_HOSTNAME'], 27017)
